@@ -1,14 +1,73 @@
-node_modules/
+# Environment files
 .env
-dist/
-build/
-*.log
-logs/
-.DS_Store
-# Ignore all .env files
+.env.*
+!.env.example
 devmentor-backend/.env
+devmentor-frontend/.env
 
 # Node.js dependencies
+node_modules/
 devmentor-backend/node_modules/
 devmentor-frontend/node_modules/
+jspm_packages/
+web_modules/
 
+# Build and distribution folders
+dist/
+build/
+build/Release
+out/
+.next
+.nuxt
+.cache
+.temp
+.docusaurus
+.svelte-kit/
+.serverless/
+.firebase/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Coverage and test outputs
+coverage/
+*.lcov
+.nyc_output/
+lib-cov/
+.grunt/
+
+# IDE and system files
+.DS_Store
+.vscode-test/
+.tern-port
+
+# Cache files
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.pnp.*
+.npm
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Optional lock and history files
+pids
+*.pid
+*.seed
+*.pid.lock
+.node_repl_history
+*.tgz
+
+# Vite logs
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
