@@ -1,0 +1,14 @@
+node_modules/
+.env
+dist/
+build/
+*.log
+logs/
+.DS_Store
+# Ignore all .env files
+devmentor-backend/.env
+
+# Node.js dependencies
+devmentor-backend/node_modules/
+devmentor-frontend/node_modules/
+
